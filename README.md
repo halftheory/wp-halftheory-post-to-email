@@ -1,5 +1,5 @@
 # wp-halftheory-post-to-email
-Wordpress plugin for automatically sending any post to email, including digest options.
+WordPress plugin for automatically sending any post to email, including digest options.
 
 This plugin automatically mails site users when you create or modify a post.
 
@@ -10,7 +10,7 @@ Features:
 - Allows users to choose between daily, weekly, or monthly email digests.
 - Compatible with WP Multisite, Buddypress, Bbpress.
 
-# Custom filters
+## Custom filters
 
 The following filters are available for plugin/theme customization:
 - posttoemail_admin_menu_parent

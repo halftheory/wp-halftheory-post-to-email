@@ -1,6 +1,9 @@
-@charset "UTF-8";
+@charset 'UTF-8';
+
+$spacer: 1rem;
 
 body {
+    -ms-overflow-style: scrollbar;
 	text-rendering: optimizeLegibility;
 	font-family: sans-serif;
 	font-size: 16px;
@@ -8,8 +11,9 @@ body {
 	font-weight: normal;
 	font-style: normal;
 	text-decoration: none;
-	&#tinymce {
-		margin: 16px;
-		margin: 1rem;
-	}
+}
+
+#tinymce {
+	padding-left: $spacer !important;
+	padding-right: $spacer !important;
 }
